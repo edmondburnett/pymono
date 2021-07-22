@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "api"
+version = "0.1.0"
+description = "an apiserver microservice"
+authors = ["edmondburnett <_@edmondburnett.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+fastapi = "^0.67.0"
+database = {path = "../../lib/database"}
+
+[tool.poetry.dev-dependencies]
+black = "^21.7b0"
+flake8 = "^3.9.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
