@@ -3,14 +3,13 @@ name = "settings"
 version = "0.1.0"
 description = ""
 authors = ["edmondburnett <_@edmondburnett.com>"]
-packages = [{ include = "pymono/settings" }]
 
 [tool.poetry.dependencies]
 python = "^3.9"
 
 [tool.poetry.dev-dependencies]
-black = "^21.7b0"
 flake8 = "^3.9.2"
+black = "^21.7b0"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
