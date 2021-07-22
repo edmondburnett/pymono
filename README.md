@@ -1,4 +1,4 @@
-# pythonmono
+# pymono
 Generic skeleton example of a modular, non-monolithic Python project repo.
 
 - lib: Shared code or internal libraries.
